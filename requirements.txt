@@ -1,5 +1,5 @@
 streamlit
-transformers==4.46.3
-torch
+transformers>=4.50.0
+torch==2.5.1
 sentencepiece
 safetensors
