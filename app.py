@@ -1,7 +1,6 @@
 import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
-# غيّر ده لاسم الموديل بتاعك على HF
 MODEL_NAME = "mwael399/arabic-english-translator"
 
 st.set_page_config(
@@ -10,7 +9,6 @@ st.set_page_config(
     layout="centered",
 )
 
-# ---------- CSS للتنسيق واتجاه RTL ----------
 st.markdown("""
 <style>
     .main {
@@ -70,7 +68,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ---------- تحميل الموديل ----------
 @st.cache_resource
 def load_model():
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -80,7 +77,6 @@ def load_model():
 with st.spinner("جاري تحميل الموديل..."):
     tokenizer, model = load_model()
 
-# ---------- الواجهة ----------
 st.markdown("""
 <div class="title-container">
     <h1>🚗 مترجم عربي - إنجليزي</h1>
