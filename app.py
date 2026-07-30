@@ -4,7 +4,7 @@ from transformers import pipeline
 @st.cache_resource
 def load_model():
     return pipeline(
-        "translation_ar_to_en",
+        "translation",
         model="mwael399/arabic-english-translator"
     )
 
