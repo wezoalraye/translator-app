@@ -10,13 +10,13 @@ fine-tuned Seq2Seq model built with 🤗 Transformers and served through Streaml
 
 ## 🔗 Live Demo
 
-[جرب التطبيق من هنا](#) <!-- ضيف لينك Streamlit Cloud هنا بعد الـ deployment -->
+[جرب التطبيق من هنا](https://translator-app-mhxo9xhlzhjminzkqvgdre.streamlit.app/)
 
 ## 🧠 عن الموديل | About the Model
 
 - **Base model:** [Helsinki-NLP/opus-mt-ar-en](https://huggingface.co/Helsinki-NLP/opus-mt-ar-en)
 - **Fine-tuned on:** [opus-100 (ar-en)](https://huggingface.co/datasets/Helsinki-NLP/opus-100)
-- **Model hosted on:** Hugging Face Hub → [رابط الموديل](https://huggingface.co/your-username/your-model-name) <!-- عدّل الرابط -->
+- **Model hosted on:** Hugging Face Hub → [mwael399/arabic-english-translator](https://huggingface.co/mwael399/arabic-english-translator)
 
 > ملحوظة: الموديل مُدرّب على نصوص فصحى/شبه فصحى، وقد يواجه صعوبة مع اللهجة العامية
 > أو المصطلحات التقنية المتخصصة (مثل مصطلحات صيانة السيارات) نظرًا لطبيعة بيانات التدريب.
