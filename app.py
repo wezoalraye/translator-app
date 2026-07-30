@@ -81,7 +81,7 @@ st.markdown("""
 <div class="title-container">
     <h1>🚗 مترجم عربي - إنجليزي</h1>
 </div>
-<div class="subtitle">مترجم مخصص لمصطلحات صيانة السيارات</div>
+<div class="subtitle">ترجمة سريعة من العربي للإنجليزي</div>
 """, unsafe_allow_html=True)
 
 text = st.text_area("النص بالعربي:", height=120, placeholder="اكتب جملتك هنا...")
