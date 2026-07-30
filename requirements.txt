@@ -1,5 +1,6 @@
 streamlit
-transformers>=4.50.0
+transformers
 torch
 sentencepiece
 safetensors
+
