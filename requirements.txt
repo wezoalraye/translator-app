@@ -1,3 +1,6 @@
 streamlit
 transformers
 torch
+sentencepiece
+protobuf
+sacremoses
